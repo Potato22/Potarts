@@ -1,0 +1,95 @@
+#about {
+  background: linear-gradient(0deg,rgb(137,255,255),rgb(163,211,255));
+  user-select: none;
+  overflow: hidden;
+}
+
+.about-title {
+  margin: 0;
+  padding: 3rem;
+  text-align: center;
+  font-family: 'Quicksand';
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.the-peoples {
+  /*height: 400px;*/
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  overflow: hidden;
+  /*align-items: center;*/
+}
+
+@media (max-width: 765px) {
+  .the-peoples {
+    flex-direction: row;
+    justify-content: start;
+    justify-content: center;
+    align-items: center;
+    /*overflow-x: scroll;*/
+    /*overflow: hidden;*/
+  }
+}
+
+.row1, .row2, .row3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 45%;
+  /*flex-direction: column;*/
+}
+
+@media (max-width: 765px) {
+  .row1 {
+    flex-direction: column;
+    margin: 0 -40px 0 0;
+  }
+}
+
+@media (max-width: 765px) {
+  .row2 {
+    flex-direction: column;
+    margin: 0 -20px;
+  }
+}
+
+@media (max-width: 765px) {
+  .row3 {
+    flex-direction: column;
+    margin: 0 0 0 -40px;
+  }
+}
+
+@media (max-width: 570px) {
+  .row1, .row2, .row3 {
+    transform: scale(0.6);
+    margin: -40px;
+  }
+}
+
+@media (max-width: 570px) {
+  .the-peoples {
+    margin: -14rem 0 -10rem 0;
+  }
+}
+
+.material-icons.heart {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.andmore {
+  text-align: center;
+  margin: 2rem 0 0;
+  padding-bottom: 2rem;
+  font-family: 'Quicksand';
+  color: rgb(255,255,255);
+  font-weight: bold;
+}
+

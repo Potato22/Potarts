@@ -1,0 +1,216 @@
+a.to-someone {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profiledot {
+  width: 120px;
+  height: 160px;
+  display: flex;
+  margin: 1rem;
+}
+
+.frame {
+  background: rgb(255,255,255);
+  width: 120px;
+  height: 120px;
+  box-shadow: rgba(0,0,0,0.26) 0px 0px 12px;
+  border-radius: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  transition-duration: 0.2s;
+}
+
+.profile-picture1, .profile-picture2, .profile-picture3, .profile-picture4, .profile-picture5, .profile-picture6, .profile-picture7, .profile-picture8, .profile-picture9, .profile-picture10, .profile-picture11, .profile-picture12, .profile-picture13, .profile-picture14, .profile-picture15, .profile-picture16, .profile-picture17, .profile-picture18, .profile-picture19, .profile-picture20, .profile-picture21, .profile-picture22, .profile-picture23, .profile-picture24, .profile-picture25 {
+  background: #eaeaea;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /*align-self: center;*/
+  transition-duration: 0.6s;
+  transition-timing-function: ease-in-out;
+}
+
+.profile-picture1 {
+  background: url('../../assets/img/honorables/Winter-raw1.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture2 {
+  background: url('../../assets/img/honorables/Ian.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture3 {
+  background: url('../../assets/img/honorables/Meadow.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture4 {
+  background: url('../../assets/img/honorables/Kiev.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture5 {
+  background: url('../../assets/img/honorables/Crescend.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture6 {
+  background: url('../../assets/img/honorables/Flix.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture7 {
+  background: url('../../assets/img/honorables/yudhai.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture8 {
+  background: url('../../assets/img/honorables/Nightie.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture9 {
+  background: url('../../assets/img/honorables/Wonderfilly.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture10 {
+  background: url('../../assets/img/honorables/Daniel.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture11 {
+  background: url('../../assets/img/honorables/NaiJis%20Trixie.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture12 {
+  background: url('../../assets/img/honorables/Jaza.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture13 {
+  background: url('../../assets/img/honorables/kat.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture14 {
+  background: url('../../assets/img/honorables/Sl.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture15 {
+  background: url('../../assets/img/honorables/arty.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture16 {
+  background: url('../../assets/img/honorables/aeman.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture17 {
+  background: url('../../assets/img/honorables/Sugar.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture18 {
+  background: url('../../assets/img/honorables/Tri.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture19 {
+  background: url('../../assets/img/honorables/Sil.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture20 {
+  background: url('../../assets/img/honorables/Rosa.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture21 {
+  background: url('../../assets/img/honorables/Kart.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture22 {
+  background: url('../../assets/img/honorables/Alan.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture23 {
+  background: url('../../assets/img/honorables/Zyl.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture24 {
+  background: url('../../assets/img/honorables/dv.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-picture25 {
+  background: url('../../assets/img/honorables/piz.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.profile-tooltip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 2rem;
+  background: rgb(255,255,255);
+  margin-bottom: 1rem;
+  border-radius: 2rem;
+  color: rgb(100,100,100);
+  position: absolute;
+  transform: translate(0px,-70px);
+  z-index: 1;
+  transition-duration: 0.3s;
+  box-shadow: rgba(0,0,0,0.16) 0 0 18px;
+  opacity: 0;
+}
+
+.frame:hover .profile-tooltip {
+  transform: translate(0px,-85px);
+  opacity: 1;
+}
+
+.frame:hover {
+  transform: scale(1.1);
+}
+

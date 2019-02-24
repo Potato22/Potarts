@@ -1,0 +1,80 @@
+#who {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  width: 100%;
+  box-shadow: rgba(0,0,0,0.16) 0px 10px 12px;
+  align-self: center;
+}
+
+.bigtextbox {
+  margin: 0 4rem 0rem 4rem;
+}
+
+@media (max-width: 450px) {
+  .bigtextbox {
+    margin: 0 2rem 0rem 2rem;
+  }
+}
+
+.introhello {
+  font-family: 'Quicksand';
+  margin: 3rem 0 0 0;
+  font-size: 4rem;
+  /*text-align: center;*/
+}
+
+.Bio {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 3rem;
+  font-family: 'Roboto';
+}
+
+@media (max-width: 1000px) {
+  .Bio {
+    flex-direction: column;
+    padding: 3rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .Bio {
+    flex-direction: column;
+    padding: 0;
+  }
+}
+
+.introtext {
+  font-size: 18px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-image {
+  width: 400px;
+  align-self: center;
+}
+
+.picture-desc {
+  color: #aaa;
+}
+
+.arif {
+  font-weight: bold;
+  color: rgb(255,109,109);
+  transition-duration: 0.3s;
+}
+
+.arif:hover {
+  color: rgb(255,146,146);
+}
+
