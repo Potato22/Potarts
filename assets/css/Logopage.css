@@ -23,11 +23,6 @@ html {
   transition: background 2s ease-in-out;
 }
 
-#Logopage:hover {
-  background: rgba(255,255,255,0);
-  transition: background 8s ease-in-out 10s;
-}
-
 #Logopage:hover #background-transition {
   transition: background-size 10s ease-out 10s;
   background-size: 200%;
