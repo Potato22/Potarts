@@ -52,8 +52,7 @@
   /*border: solid 20px;*/
   border-radius: 20px;
   box-shadow: rgba(0,0,0,0.27) 0 0 12px;
-  overflow: scroll;
-  overflow-x: hidden;
+  overflow: hidden;
   background: url('../../assets/img/pic/chrome_MddI90sYLt.png');
   background-size: cover;
 }
