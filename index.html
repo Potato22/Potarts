@@ -30,16 +30,44 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
     <link rel="stylesheet" href="assets/css/Intro.css">
     <link rel="stylesheet" href="assets/css/Logopage.css">
+    <link rel="stylesheet" href="assets/css/Navigator.css">
     <link rel="stylesheet" href="assets/css/Profile-dot.css">
     <link rel="stylesheet" href="assets/css/root%20settings.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/toggle.css">
     <link rel="stylesheet" href="assets/css/Update.css">
     <link rel="stylesheet" href="assets/css/welcome.css">
-    <link rel="stylesheet" href="assets/css/where.css">
     <link rel="stylesheet" href="assets/css/woosh.css">
 </head>
 
 <body>
+    <div class="topbar">
+        <div class="dropbutton"><i class="material-icons menu">menu</i></div>
+        <div class="dropcontent">
+            <div class="spacer"><span class="navbox-title">Where do you want to go?</span></div>
+            <a href="#Logopage" class="autoclose">
+                <div class="skip-nav"><span class="nav-button-title">Back to top</span></div>
+            </a>
+            <a href="#toggle" class="autoclose">
+                <div class="skip-nav"><span class="nav-button-title">Navigation toggle</span></div>
+            </a>
+            <a href="#who" class="autoclose">
+                <div class="skip-nav"><span class="nav-button-title">Who am I?</span></div>
+            </a>
+            <a href="#content">
+                <div class="skip-nav"><span class="nav-button-title">My contents</span></div>
+            </a>
+            <a href="#connect" class="autoclose">
+                <div class="skip-nav"><span class="nav-button-title">Get in touch</span></div>
+            </a>
+            <a href="#bottompage" class="autoclose">
+                <div id="autoclose" class="skip-nav"><span class="nav-button-title">What's on the bottom?</span></div>
+            </a>
+            <a href="about.html" id="autoclose">
+                <div class="skip-nav aboutbutton"><span class="nav-button-title">About Website</span></div>
+            </a>
+        </div>
+    </div>
     <div id="Logopage">
         <div class="logopage contentbox">
             <div data-aos="fade-up" data-aos-duration="950" data-aos-delay="1550" data-aos-once="true" class="biglogo-color"></div>
@@ -59,32 +87,22 @@
             <p data-aos="fade-up" data-aos-duration="350" data-aos-delay="300" class="hello-paragraph">Hello</p><img src="assets/img/pic/potglasses.png" data-aos="fade-up" data-aos-duration="500" class="potglasses"></div>
         <p data-aos="zoom-in-up" data-aos-duration="350" data-aos-delay="400" class="intro">Welcome to the potato palace where you'll be seeing a bunch of my potato quality<br>contents.</p>
     </div>
-    <div id="where">
+    <div id="toggle">
         <p data-aos="fade-up" data-aos-duration="300" data-aos-once="true" class="holdit">Just in case if you're not feeling like scrolling so much</p>
-        <p data-aos="fade-up" data-aos-duration="300" data-aos-delay="200" class="skiptext">where do you want to go?<br>skip this part if you want to keep scrolling</p>
+        <p data-aos="fade-up" data-aos-duration="300" data-aos-delay="200" class="skiptext">You can click this button to enable the quick navigator</p>
         <div data-aos="fade-up" data-aos-duration="700" class="skipper">
-            <a href="#who">
-                <div id="skipblocks" class="b1">
-                    <p id="tb1" class="textblocks">Who am i?</p>
-                </div>
-            </a>
-            <a href="#content">
-                <div id="skipblocks" class="b2">
-                    <p id="tb2" class="textblocks">My contents</p>
-                </div>
-            </a>
-            <a href="#contacts">
-                <div id="skipblocks" class="b3">
-                    <p id="tb3" class="textblocks">Get in touch</p>
-                </div>
-            </a>
+            <div id="skipblocks" class="b-navtoggle">
+                <p id="tb2" class="textblocks">Toggle On/Off</p>
+            </div>
+            <div class="indicator"><span>On</span></div>
         </div>
+        <p data-aos="fade-down" data-aos-duration="300" data-aos-delay="200" class="skiptext">The route is dark down there, you might need it.</p>
     </div>
     <div id="woosh">
         <h1 data-aos="fade-up" data-aos-duration="950" data-aos-delay="150" class="weeshwoosh">*woosh*</h1>
     </div>
     <div class="the-light">
-        <h1 data-aos="fade-up" data-aos-duration="950" data-aos-delay="100" class="say">It was dark isn't it?</h1>
+        <h1 data-aos="fade-up" data-aos-duration="950" data-aos-delay="100" class="say">What did you expect, a HTML5 dark adventure game?</h1>
     </div>
     <div id="who"><img src="assets/img/pic/introbanner.png" data-aos="fade-up" data-aos-duration="700" class="banner">
         <div class="banner"></div>
@@ -150,7 +168,7 @@
             </div>
         </div>
     </div>
-    <div id="contacts">
+    <div id="connect">
         <h1 data-aos="fade-up" class="connecttitle">Get yourself in touch with me!</h1>
         <div data-aos="fade-up" data-aos-duration="550" class="connectbox"><div class="container">
     <div class="theblocks">
@@ -210,7 +228,7 @@
             <div data-aos="fade-left" class="deviantart"></div>
         </div>
     </div>
-    <div id="about">
+    <div id="bottompage">
         <h5 data-aos="fade-up" data-aos-once="true" class="about-title">Nothing to expect down here, have a heart.<br><i class="material-icons heart">favorite</i><br></h5>
     </div>
     <footer id="end">
@@ -222,6 +240,7 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-animation.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="assets/js/navigator%20toggle.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,15 @@
+$(function(){
+    $(".b-navtoggle").click(function(){
+        $(".topbar").toggleClass("exist");
+        $(".indicator").toggleClass("indicatoractive");
+    })
+    $(".dropbutton").click(function(){
+        $(".dropcontent").toggleClass("open");
+        $(".dropbutton").toggleClass("active");
+        $(".dropbutton").toggleClass("buttonactive");
+    })
+    $("a.autoclose").click(function(){
+        $(".dropcontent").toggleClass("open");
+        $(".dropbutton").toggleClass("active");
+    })
+})

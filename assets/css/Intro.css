@@ -30,7 +30,7 @@
 .Bio {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-end;
   margin-bottom: 3rem;
   font-family: 'Roboto';
 }
@@ -46,21 +46,31 @@
   .Bio {
     flex-direction: column;
     padding: 0;
+    align-items: center;
   }
 }
 
 .introtext {
   font-size: 18px;
+  margin: 0;
 }
 
 .image-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 1rem;
+}
+
+@media (min-width: 415px) {
+  .icon-image {
+    width: 300px;
+    align-self: center;
+  }
 }
 
 .icon-image {
-  width: 400px;
+  width: 320px;
   align-self: center;
 }
 

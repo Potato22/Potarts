@@ -1,12 +1,19 @@
 #welcome {
-  padding: 5rem 0rem 5rem 0rem;
+  padding: 0;
   width: 100%;
-  /*height: 100vh;*/
+  height: 100vh;
   background: linear-gradient(74deg,#9b9fff,#90f2ff);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 750px) {
+  #welcome {
+    height: initial;
+    padding: 5rem 0rem 5rem 0rem;
+  }
 }
 
 .contentbox.welcome {
