@@ -1,0 +1,146 @@
+#content {
+  background: rgb(66,66,66);
+  box-shadow: rgba(0,0,0,0.33) 0 0 12px;
+  overflow: hidden;
+}
+
+.content-title {
+  padding: 2rem 0 0 0;
+  text-align: center;
+  color: white;
+  font-family: 'Quicksand';
+}
+
+.agenda {
+  text-align: center;
+  font-family: 'Quicksand';
+  font-weight: bold;
+  color: rgba(255,255,255,0.61);
+  margin-bottom: 2rem;
+}
+
+.title-category {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 17px;
+  text-align: center;
+  background: rgba(255,255,255,0.08);
+  margin: 0;
+}
+
+.picture-bigbox {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.row-separator {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.row-separator2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+@media (max-width: 1620px) {
+  .picture-bigbox {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 858px) {
+  .picture-bigbox {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1620px) {
+  .row-separator {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1620px) {
+  .row-separator2 {
+    flex-direction: column;
+  }
+}
+
+#pb {
+  max-width: initial;
+  max-height: 300px;
+  border-radius: 10px;
+  box-shadow: rgba(0,0,0,0.48) 0 0 12px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /*align-items: center;*/
+  overflow: hidden;
+  transition-duration: 0.3s;
+  font-family: 'Roboto';
+}
+
+@media (max-width: 1620px) {
+  #pb {
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  #pb {
+    transform: scale(0.999);
+  }
+}
+
+#pb:hover {
+  transform: scale(1.1);
+}
+
+.picture-title {
+  position: absolute;
+  /*width: 100%;*/
+  background: rgba(0,0,0,0.44);
+  margin: 0;
+  padding: 5px 10px 5px 5px;
+  color: rgb(255,255,255);
+  font-size: 12px;
+  transform: translate(0px,30px);
+  transition-duration: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0 10px 0 0;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+#pb:hover .picture-title {
+  transform: translate(0px,0px);
+  visibility: visible;
+}
+
+#indicator {
+  margin-left: 5px;
+  font-size: 16px;
+  color: rgb(255,215,73);
+  vertical-align: middle;
+}
+
+.contentimg {
+  max-width: 350px;
+}
+

@@ -11,5 +11,6 @@ $(function(){
     $("a.autoclose").click(function(){
         $(".dropcontent").toggleClass("open");
         $(".dropbutton").toggleClass("active");
+        $(".dropbutton").toggleClass("buttonactive");
     })
 })

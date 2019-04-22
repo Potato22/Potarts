@@ -1,0 +1,20 @@
+.loadflex {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+  /*z-index: -100;*/
+}
+
+.preload {
+  width: 100%;
+  height: 100vh;
+  background: white;
+  background: url('../../../assets/img/icon/color-loader.gif') white;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+

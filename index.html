@@ -23,25 +23,32 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700,800">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700,700i">
-    <link rel="stylesheet" href="assets/css/connect.css">
-    <link rel="stylesheet" href="assets/css/content.css">
-    <link rel="stylesheet" href="assets/css/end.css">
-    <link rel="stylesheet" href="assets/css/Honorable.css">
+    <link rel="stylesheet" href="assets/css/about/about.css">
+    <link rel="stylesheet" href="assets/css/about/back.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
-    <link rel="stylesheet" href="assets/css/Intro.css">
-    <link rel="stylesheet" href="assets/css/Logopage.css">
-    <link rel="stylesheet" href="assets/css/Navigator.css">
-    <link rel="stylesheet" href="assets/css/Profile-dot.css">
-    <link rel="stylesheet" href="assets/css/root%20settings.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/toggle.css">
-    <link rel="stylesheet" href="assets/css/Update.css">
-    <link rel="stylesheet" href="assets/css/welcome.css">
-    <link rel="stylesheet" href="assets/css/woosh.css">
+    <link rel="stylesheet" href="assets/css/Index/connect.css">
+    <link rel="stylesheet" href="assets/css/Index/content.css">
+    <link rel="stylesheet" href="assets/css/Index/end.css">
+    <link rel="stylesheet" href="assets/css/Index/Honorable.css">
+    <link rel="stylesheet" href="assets/css/Index/Intro.css">
+    <link rel="stylesheet" href="assets/css/Index/Logopage.css">
+    <link rel="stylesheet" href="assets/css/Index/Navigator.css">
+    <link rel="stylesheet" href="assets/css/Index/Preloader.css">
+    <link rel="stylesheet" href="assets/css/Index/Profile-dot.css">
+    <link rel="stylesheet" href="assets/css/Index/root%20settings.css">
+    <link rel="stylesheet" href="assets/css/Index/styles.css">
+    <link rel="stylesheet" href="assets/css/Index/toggle.css">
+    <link rel="stylesheet" href="assets/css/Index/Update.css">
+    <link rel="stylesheet" href="assets/css/Index/welcome.css">
+    <link rel="stylesheet" href="assets/css/Index/woosh.css">
 </head>
 
 <body>
-    <div class="topbar">
+    <div class="loadflex">
+        <div class="logoloader"></div>
+        <div class="preload"></div>
+    </div>
+    <div class="topbar exist">
         <div class="dropbutton"><i class="material-icons menu">menu</i></div>
         <div class="dropcontent">
             <div class="spacer"><span class="navbox-title">Where do you want to go?</span></div>
@@ -54,7 +61,7 @@
             <a href="#who" class="autoclose">
                 <div class="skip-nav"><span class="nav-button-title">Who am I?</span></div>
             </a>
-            <a href="#content">
+            <a href="#content" class="autoclose">
                 <div class="skip-nav"><span class="nav-button-title">My contents</span></div>
             </a>
             <a href="#connect" class="autoclose">
@@ -89,12 +96,12 @@
     </div>
     <div id="toggle">
         <p data-aos="fade-up" data-aos-duration="300" data-aos-once="true" class="holdit">Just in case if you're not feeling like scrolling so much</p>
-        <p data-aos="fade-up" data-aos-duration="300" data-aos-delay="200" class="skiptext">You can click this button to enable the quick navigator</p>
+        <p data-aos="fade-up" data-aos-duration="300" data-aos-delay="200" class="skiptext">I enabled the quick navigator as default for you, but you can toggle it off if you want to</p>
         <div data-aos="fade-up" data-aos-duration="700" class="skipper">
             <div id="skipblocks" class="b-navtoggle">
                 <p id="tb2" class="textblocks">Toggle On/Off</p>
             </div>
-            <div class="indicator"><span>On</span></div>
+            <div class="indicator indicatoractive"><span>On</span></div>
         </div>
         <p data-aos="fade-down" data-aos-duration="300" data-aos-delay="200" class="skiptext">The route is dark down there, you might need it.</p>
     </div>
@@ -123,47 +130,40 @@
         <p data-aos="fade-up" class="title-category">Vector highlights</p>
         <div class="picture-bigbox">
             <div class="row-separator">
-                <a href="https://www.deviantart.com/potato2292/art/Crescend-s-Sunset-787033360" class="jumper" target="_blank">
-                    <div data-aos="fade-up" id="pb" class="p1">
-                        <p class="picture-title">Crescend's Sunset</p>
+                <a href="https://www.deviantart.com/potato2292/art/Lotus-Inkstick-789021431" class="jumper" target="_blank">
+                    <div data-aos="fade-up" id="pb" class="p"><img src="assets/img/content/Lotus.png" class="contentimg">
+                        <p class="picture-title">Lotus Inksctick // Mar 10, 2019</p>
                     </div>
+                </a>
+                <a href="https://www.deviantart.com/potato2292/art/Crescend-s-Sunset-787033360" class="jumper" target="_blank">
+                    <div data-aos="fade-up" id="pb" class="p">
+                        <p class="picture-title">Crescend's Sunset // Feb 24, 2019</p><img src="assets/img/content/Crescend%20belowshot.png" class="contentimg"></div>
                 </a>
                 <a href="https://www.deviantart.com/potato2292/art/Paradox-s-evening-785119927" class="jumper" target="_blank">
-                    <div data-aos="fade-up" id="pb" class="p2">
-                        <p class="picture-title">Paradox's Evening</p>
-                    </div>
+                    <div data-aos="fade-up" id="pb" class="p">
+                        <p class="picture-title">Paradox's Evening // Feb 11, 2019</p><img src="assets/img/content/Paradoxs%20evening%20because%20why%20not.%20oh%20and%20he%20remembered%20his%20glasses%20now.png" class="contentimg"></div>
                 </a>
                 <a href="https://www.deviantart.com/potato2292/art/Glimmy-s-evening-782969187" class="jumper" target="_blank">
-                    <div data-aos="fade-up" id="pb" class="p3">
-                        <p class="picture-title">Glimmy's evening<i class="material-icons" id="indicator">star</i></p>
-                    </div>
-                </a>
-                <a href="https://www.deviantart.com/potato2292/art/Solbutt-sfw-779505908" class="jumper" target="_blank">
-                    <div data-aos="fade-up" id="pb" class="p5">
-                        <p class="picture-title">Sollbutt sfw</p>
-                    </div>
+                    <div data-aos="fade-up" id="pb" class="p">
+                        <p class="picture-title">Glimmy's evening // Jan 27, 2019<i class="material-icons" id="indicator">star</i></p><img src="assets/img/content/glimmys.png" class="contentimg"></div>
                 </a>
             </div>
             <div data-aos="fade-up" class="row-separator">
-                <a href="https://www.deviantart.com/potato2292/art/Glasses-On-779655040" class="jumper" target="_blank">
-                    <div id="pb" class="p7">
-                        <p class="picture-title">Potglasses<i class="material-icons" id="indicator">star</i></p>
-                    </div>
+                <a href="https://www.deviantart.com/potato2292/art/Solbutt-sfw-779505908" class="jumper" target="_blank">
+                    <div data-aos="fade-up" id="pb" class="p">
+                        <p class="picture-title">Sollbutt sfw // Jan 6, 2019</p><img src="assets/img/content/Solbutt_sfw.png" class="contentimg"></div>
                 </a>
                 <a href="https://www.deviantart.com/potato2292/art/Heart-s-warming-snowpone-hug-777876994" class="jumper" target="_blank">
-                    <div data-aos="fade-up" id="pb" class="p4">
-                        <p class="picture-title">Heart's warming snowpone<i class="material-icons" id="indicator">star</i></p>
-                    </div>
+                    <div data-aos="fade-up" id="pb" class="p">
+                        <p class="picture-title">Heart's warming snowpone // Dec 23, 2018<i class="material-icons" id="indicator">star</i></p><img src="assets/img/content/Heart%27s%20warming%20snowpone.png" class="contentimg"></div>
                 </a>
-                <a href="https://www.deviantart.com/potato2292/art/Mareota-Solo-772009181" class="jumper" target="_blank">
-                    <div id="pb" class="p9">
-                        <p class="picture-title">Mareota Solo<i class="material-icons" id="indicator">star</i></p>
-                    </div>
+                <a href="https://www.deviantart.com/potato2292/art/Heart-s-warming-snowpone-hug-777876994" class="jumper" target="_blank">
+                    <div data-aos="fade-up" id="pb" class="p">
+                        <p class="picture-title">Glasses on // Jan 4, 2019<i class="material-icons" id="indicator">star</i></p><img src="assets/img/content/glasses%20on.png" class="contentimg"></div>
                 </a>
-                <a href="#" class="jumper" target="_blank">
-                    <div id="pb" class="p6">
-                        <p class="picture-title">Discord Pone<i class="material-icons" id="indicator">star</i></p>
-                    </div>
+                <a href="https://www.deviantart.com/potato2292/art/Heart-s-warming-snowpone-hug-777876994" class="jumper" target="_blank">
+                    <div data-aos="fade-up" id="pb" class="p">
+                        <p class="picture-title">Discord Pone // Oct 14, 2018<br><i class="material-icons" id="indicator">star</i></p><img src="assets/img/content/DiscordPone.png" class="contentimg"></div>
                 </a>
             </div>
         </div>
@@ -234,13 +234,14 @@
     <footer id="end">
         <div class="stroke"></div>
         <div class="footer">
-            <div class="footer-logo"></div><span class="copyright">©Potato2292</span><span class="aboutthis"><strong><a href="#about-site" class="about-site">About this site</a></strong></span></div>
+            <div class="footer-logo"></div><span class="copyright">©Potato2292</span><span class="aboutthis"><strong><a href="about.html" class="about-site">About this site</a></strong></span></div>
     </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-animation.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="assets/js/navigator%20toggle.js"></script>
+    <script src="assets/js/Preloader.js"></script>
 </body>
 
 </html>

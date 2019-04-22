@@ -1,0 +1,207 @@
+.connecttitle {
+  padding: 2rem;
+  text-align: center;
+  color: rgb(54,54,54);
+  font-family: 'Quicksand';
+}
+
+.container {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin-bottom: 3rem;
+}
+
+.linksectitle {
+  text-align: center;
+  font-family: 'Quicksand';
+}
+
+.theblocks {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+  transition-duration: 0.3s;
+}
+
+@media (max-width: 1050px) {
+  .theblocks {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition-duration: 0.3s;
+  }
+}
+
+.component1, .component2, .component3 {
+  color: rgb(62, 62, 62);
+  width: 300px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.25);
+  transition-duration: 0.3s;
+  font-family: 'Quicksand';
+  margin: 10px;
+}
+
+.component1:hover {
+  transform: scale(1.05);
+}
+
+.component2:hover {
+  transform: scale(1.05);
+}
+
+.component3:hover {
+  transform: scale(1.05);
+}
+
+.picture-sec {
+  width: 300px;
+  height: 180px;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+
+.picture1 {
+  background: url('../../../assets/img/cards/socialcards.png');
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  transition-duration: 1s;
+}
+
+.picture2 {
+  background: url('../../../assets/img/cards/socialcards3.png');
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  transition-duration: 1s;
+}
+
+.picture3 {
+  background: url('../../../assets/img/cards/socialcards4.png');
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  transition-duration: 1s;
+}
+
+.component1:hover .picture1 {
+  transform: scale(1.1);
+}
+
+.component2:hover .picture2 {
+  transform: scale(1.1);
+}
+
+.component3:hover .picture3 {
+  transform: scale(1.1);
+}
+
+.titledesc {
+  background: white;
+  width: 300px;
+  border-radius: 0px 0px 30px 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.title1 {
+  font-size: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.title2 {
+  font-size: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.title3 {
+  font-size: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.desc1 {
+  font-size: 14px;
+  margin-top: -15px;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.desc2 {
+  font-size: 14px;
+  margin-top: -15px;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.desc3 {
+  font-size: 14px;
+  margin-top: -15px;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.thaticon {
+  margin-bottom: 5px;
+  text-align: right;
+}
+
+.material-icons.link-indicator {
+  margin-top: 5px;
+  font-size: 18px;
+  transition-duration: 0.2s;
+  opacity: 0;
+}
+
+.component1:hover .material-icons.link-indicator {
+  color: #1da1f2;
+  opacity: 1;
+}
+
+.component2:hover .material-icons.link-indicator {
+  color: #05cc47;
+  opacity: 1;
+}
+
+.component3:hover .material-icons.link-indicator {
+  color: #ff0000;
+  opacity: 1;
+}
+
+.link-jump {
+  text-decoration: none;
+  color: rgb(62, 62, 62);
+  margin: 0px;
+}
+
+.link-jump:hover {
+  text-decoration: none;
+  color: rgb(62, 62, 62);
+  margin: 0px;
+}
+
+.material-icons {
+  padding: 0px;
+  /*width: 24px;*/
+}
+
+a:hover {
+  text-decoration: none;
+}
+
